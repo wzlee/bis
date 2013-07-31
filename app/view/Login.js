@@ -28,7 +28,7 @@ Ext.define('bis.view.Login', {
             },{
                 xtype: 'label',
                 style: { color: 'White'},
-                text: 'APP TITLE'
+                text: 'BARANGAY INFORMATION SYSTEM'
             }]
 
         });

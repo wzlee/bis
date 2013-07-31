@@ -12,7 +12,7 @@ Ext.define('bis.view.Header', {
             },{
                 xtype: 'label',
                 style: { color: 'White', font: 'normal 22px courier'},
-                text: 'APP HEADER TITLE'
+                text: 'BARANGAY INFORMATION SYSTEM'
             },
             '->',
             {
