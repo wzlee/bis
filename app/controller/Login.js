@@ -6,19 +6,19 @@ Ext.define('bis.controller.Login', {
 
         this.control({
              'app-login button[action=login]': {
-                click: this.userLogin
+                click: this.onLogin
             }
         });
     },
 
 
-    userLogin: function() {
+    onLogin: function() {
 
         var form   = this.getForm();
             form.submit({ 
             url:'php/login.php', 
             method:'POST', 
-            success:function(result, request){ 
+            success:function(result, request){
                window.location = 'index.php';
             },
             failure:function(form, action){ 

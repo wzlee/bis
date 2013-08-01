@@ -10,8 +10,7 @@ Ext.define('bis.view.Viewport', {
 
     layout: {
         type: 'border'
-    },
+    }
 
-    componentLayout: ''
 });
 

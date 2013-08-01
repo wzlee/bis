@@ -13,8 +13,10 @@ Ext.define('bis.controller.Viewport', {
     onViewportRendered: function(p) {
         // global variable userid ref: index.php
         if (userid == 0) {
-            Ext.create('bis.view.Login',    {id: 'loginform'}).show();    
+            p.add(Ext.create('bis.view.Login')); 
+            p.doLayout(); 
         } else {
+           // p.remove('bis.view.Login');
             p.add(Ext.create('bis.view.Header'),
                 Ext.create('bis.view.Footer'),
                 Ext.create('bis.view.Menu'),
@@ -24,3 +26,4 @@ Ext.define('bis.controller.Viewport', {
         }
     }
 });
+

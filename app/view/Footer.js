@@ -1,6 +1,7 @@
 Ext.define('bis.view.Footer', {
     extend: 'Ext.toolbar.Toolbar',
     xtype: 'app-footer',
+    itemId: 'footer',
     region: 'south',
     cls: 'icon-blue',
     border: false,

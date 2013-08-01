@@ -3,13 +3,10 @@ Ext.define('bis.view.Content', {
     region: 'center',
     
     xtype: 'app-content',
-
-
     bodyCls: 'icon-square',
     layout: {
         type: 'fit'
     }
-
    
 });
 
